@@ -1,0 +1,183 @@
+/* Import Google Fonts for Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Global styles */
+body {
+  background: linear-gradient(to bottom right, #F5EDE0, #E8DFCF);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+/* Page container for smooth scroll */
+.container {
+  padding-top: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #1E3A8A !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#courses h1{
+  text-align: center;
+  padding: 20px;
+  color: #0a0452;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+/* Card styles */
+.card {
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #6B4F3B;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1E3A8A;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Progress bar styles (Bootstrap override for custom colors) */
+.progress-bar {
+  background-color: #1E3A8A;
+}
+
+/* Form check (radio buttons) styles */
+.form-check-input:checked {
+  background-color: #1E3A8A;
+  border-color: #1E3A8A;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+
+/* ... (le reste du fichier reste inchangé) */
+
+/* Styles pour la section hero */
+.hero {
+  background: linear-gradient(to right, #1E3A8A, #6B4F3B);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  margin-top: -20px; /* Pour compenser le padding-top du container */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn-order {
+  background-color: #6B4F3B;
+  border-color: #6B4F3B;
+  color: white;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-order:hover {
+  background-color: #1E3A8A;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ... (le reste inchangé) */
+
+/* Animations pour le quiz */
+.animate-fade {
+  animation: fadeIn 0.5s ease-in;
+}
+
+.animate-slide {
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+/* Classe bg-brown pour la progress bar */
+.bg-brown {
+  background-color: #6B4F3B !important;
+}
+
+/* ... (le reste inchangé) */
+
+/* Styles pour les nouvelles sections */
+.testimonials-section {
+  background-color: #F5EDE0;
+}
+
+.testimonial-card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.faq-section {
+  background-color: #F5EDE0;
+}
+
+.contact-section {
+  background-color: #fff;
+}
+
+.accordion-button {
+  background-color: #1E3A8A !important;
+  color: white !important;
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #6B4F3B !important;
+}
+
+.accordion-body {
+  background-color: #F5EDE0;
+}
+
