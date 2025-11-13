@@ -1,4 +1,4 @@
 Application web moderne développée en React.
 
 ## 📸 Aperçu du projet
-![Aperçu du projet](./project learnSmart)
+![Aperçu du projet](./project learnSmart.png)
