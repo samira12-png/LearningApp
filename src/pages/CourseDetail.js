@@ -5,7 +5,7 @@ function CourseDetail() {
   const { id } = useParams();
   const { state } = useAppContext();
   const navigate = useNavigate();
-  const course = state.courses.find(c => c.id == id);
+  const course = state.courses.find(c => c.id === Number(id));
 
   if (!course) {
     return <div className="container mt-5 pt-5 text-center">Cours non trouvé</div>;
